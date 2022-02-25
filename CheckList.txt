@@ -1,0 +1,20 @@
+CheckList
+Registration:
+1. Registration a new user (valid data)
+2. Registration a new user (invalid data)
+3. Registration of a registered user
+Authorization:
+1. Authorization of registered user (valid data)
+2. Authorization of registered user (invalid data)
+3. Authorization of unregistered user
+Dashboard:
+1. Date
+2. Balans
+3. Diagrams
+Report:
+1. Transaction
+2. Statistics by Method
+3. Volumes by Method
+
+
+
