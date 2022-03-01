@@ -1,10 +1,17 @@
-Summary:
-Description:
+Summary: Any Bank card doesn't pass validation when entering card data on the payment page
+Description: The user wants to pay for his order, but the data of any card is not accepted
 STR:
-AR:
-ER:
-Severity:
-Reporter:
-Assigne:
-Attachment:
-Environment:
+  1. Start the app
+  2. Login (email |password)
+  3. Choose a product
+  4. Add a product to the cart
+  5. Tap on the cart
+  6. Tap on the "Generate order" button
+  7. Tap on the Pay button
+  8. Enter bank card details in the Bank Card field
+AR: The any bank card doesn't passed verification. User can't pay for the order
+ER: The bank card was verified and the user successfully paid for the order
+lSeverity: Critical
+Reporter: Yoana
+Assigne: Ivan
+Attachment: attach.mp4
